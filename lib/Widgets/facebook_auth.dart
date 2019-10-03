@@ -31,7 +31,7 @@ class SignIn extends StatelessWidget {
               fontWeight: FontWeight.w500,),
           ),
           SizedBox(
-            height: 350,
+            height: MediaQuery.of(context).size.height*0.4,
           )
         ]),
         showBar: true,

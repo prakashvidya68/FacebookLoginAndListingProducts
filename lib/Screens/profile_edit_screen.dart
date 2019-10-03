@@ -198,7 +198,7 @@ class ProfileEditScreenState extends State<ProfileEditScreen> {
             height: 10.0,
           ),
          Padding(
-           padding: const EdgeInsets.symmetric(vertical: 30,horizontal: 120),
+           padding: const EdgeInsets.symmetric(vertical: 30,horizontal: 60),
            child: FormBuilderDateTimePicker(
                 controller: _dobController,
                 lastDate: DateTime.now(),
